@@ -111,7 +111,7 @@ function passwordPhase() {
                 clearInterval(timer)
                 lockScreen.remove();
                 if (firstBoot) {
-                    setTimeout(notify, 1e3, "src/icons/mar.jpg", "MARUF", "Welcome Nowshin", "A tiny surprise to make you happy, because your smile means the world to me!")
+                    setTimeout(notify, 1e3, "src/icons/mar.jpg", "MARUF", "Welcome Dostt!", "A tiny surprise to make you happy, because your smile means the world to me!")
                     setTimeout(_ => {
                         // notifies firefox uses to enable backdrop-filter flag
                         if (window.navigator.userAgent.indexOf("Firefox") > -1) {
